@@ -1,0 +1,82 @@
+vagrant@mi-mdw:~$ telnet 1-dot-mi-mdw-1071.appspot.com 80
+Trying 74.125.136.141...
+Connected to appspot.l.google.com.
+Escape character is '^]'.
+
+GET /httpTelnet1 HTTP/1.1
+Host: 1-dot-mi-mdw-1071.appspot.com
+User-Agent: fit-telnet
+Accept: text/html
+Accept-Charset: UTF-8
+Accept-Language: en-US
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Fri, 30 Oct 2015 23:09:30 GMT
+Server: Google Frontend
+Content-Length: 3
+
+OK
+*************************************************************************************
+
+vagrant@mi-mdw:~$ telnet 1-dot-mi-mdw-1071.appspot.com 80
+Trying 74.125.136.141...
+Connected to appspot.l.google.com.
+Escape character is '^]'.
+POST /httpTelnet2 HTTP/1.1
+Host: 1-dot-mi-mdw-1071.appspot.com
+Referer: mi-mdw
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 8
+
+data=fit
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Fri, 30 Oct 2015 23:15:26 GMT
+Server: Google Frontend
+Content-Length: 3
+
+OK
+
+*************************************************************************************
+
+vagrant@mi-mdw:~$ curl http://1-dot-mi-mdw-1071.appspot.com:80/protocol/welcome
+OK
+Your next page is /protocol/get
+send GET parameter "name" with value "discriminate" 
+set Header "Accept" to "text/plain" 
+vagrant@mi-mdw:~$ curl -H "Accept: text/plain" "http://1-dot-mi-mdw-1071.appspot.com/protocol/get?name=belt"
+OK
+Your next page is /protocol/post 
+send POST parameter "name" with value "whjjm"
+and set Header "Accept" is "text/plain" 
+and set Header "Accept-Language" is "en-US"  
+vagrant@mi-mdw:~$ curl --data "name=whjjm" -H "Accept: text/plain" -H "Accept-Language: en-US" http://1-dot-mi-mdw-1071.appspot.com/protocol/post
+OK
+Your next page is /protocol/referer 
+change referer to value "daq"
+set Header "Accept" is "text/html" 
+vagrant@mi-mdw:~$ curl --referer daq -H "Accept: text/html" http://1-dot-mi-mdw-1071.appspot.com/protocol/referer
+OK
+Your next page is /protocol/useragent
+and change User-Agent to value "he"
+and set Header "Accept-Language" is "en-US" 
+vagrant@mi-mdw:~$ curl --user-agent he -H "Accept-Language: en-US" http://1-dot-mi-mdw-1071.appspot.com/protocol/useragent
+OK
+Your next page is /protocol/cookie 
+send cookie called "name" with value "depth"
+vagrant@mi-mdw:~$ curl --cookie "name=depth" http://1-dot-mi-mdw-1071.appspot.com/protocol/cookie
+OK
+Your next page is /protocol/auth 
+authenticate by "bibliography:rant"
+set Header "Accept" is "text/html" 
+vagrant@mi-mdw:~$ curl --user bibliography:rant -H "Accept:text/html" http://1-dot-mi-mdw-1071.appspot.com/protocol/auth
+OK
+Your final result is: proselytize
+
+
+
+
+
+
+

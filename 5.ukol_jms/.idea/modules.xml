@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../4.ukol/mdw-3ukol-jdbc.iml" filepath="$PROJECT_DIR$/../4.ukol/mdw-3ukol-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../3.ukol/mdw-task3.iml" filepath="$PROJECT_DIR$/../3.ukol/mdw-task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdw_ukol_5_jms.iml" filepath="$PROJECT_DIR$/mdw_ukol_5_jms.iml" />
+    </modules>
+  </component>
+</project>

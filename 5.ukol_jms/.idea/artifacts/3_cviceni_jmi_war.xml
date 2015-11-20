@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="3.cviceni_jmi:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="mdw-cviceni-jmi.war">
+      <element id="artifact" artifact-name="3.cviceni_jmi:war exploded" />
+    </root>
+  </artifact>
+</component>

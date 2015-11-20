@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mdw-3ukol-jdbc:war exploded">
+    <output-path>$PROJECT_DIR$/../4.ukol/target/mdw-3ukol-jdbc</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mdw-3ukol-jdbc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:\01.Skola\07.Semestr\01.MDW\02.ukoly\4.ukol\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mdw-3ukol-jdbc/web/Web" />
+    </root>
+  </artifact>
+</component>

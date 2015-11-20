@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="4.ukol:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="mdw-3ukol-jdbc.war">
+      <element id="artifact" artifact-name="4.ukol:war exploded" />
+    </root>
+  </artifact>
+</component>

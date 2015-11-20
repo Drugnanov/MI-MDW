@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mdw_ukol_5_jms:war exploded">
+    <output-path>$PROJECT_DIR$/target/mdw-cviceni-jmi</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mdw_ukol_5_jms" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:\01.Skola\07.Semestr\01.MDW\02.ukoly\5.ukol_jms\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mdw_ukol_5_jms/web/Web" />
+    </root>
+  </artifact>
+</component>
