@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="6.ukol_security:war exploded">
+    <output-path>$PROJECT_DIR$/target/mdw-6-ukol</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="6.ukol_security" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:\01.Skola\07.Semestr\01.MDW\02.ukoly\6.ukol_security\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="6.ukol_security/web/Web" />
+    </root>
+  </artifact>
+</component>
