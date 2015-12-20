@@ -22,7 +22,7 @@ public class BankAccountServiceServiceLocator extends org.apache.axis.client.Ser
     }
 
     // Use to get a proxy class for BankAccountServicePort
-    private java.lang.String BankAccountServicePort_address = "http://192.168.99.1:7001/mdw-ukol-8/BankAccountServiceService";
+    private java.lang.String BankAccountServicePort_address = "http://192.168.99.1:7001/mdw-ukol-8-3/BankAccountServiceService";
 
     public java.lang.String getBankAccountServicePortAddress() {
         return BankAccountServicePort_address;
