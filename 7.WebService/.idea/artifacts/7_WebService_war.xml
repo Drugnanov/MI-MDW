@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="7.WebService:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="mdw-hw-7.war">
+      <element id="artifact" artifact-name="7.WebService:war exploded" />
+    </root>
+  </artifact>
+</component>
