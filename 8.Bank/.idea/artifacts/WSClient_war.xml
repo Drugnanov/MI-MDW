@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WSClient:war">
+    <output-path>$PROJECT_DIR$/WSClient/target</output-path>
+    <root id="archive" name="mdw-ukol-8-client.war">
+      <element id="artifact" artifact-name="WSClient:war exploded" />
+    </root>
+  </artifact>
+</component>
