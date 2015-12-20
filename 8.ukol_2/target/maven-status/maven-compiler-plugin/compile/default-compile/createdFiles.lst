@@ -1,0 +1,10 @@
+cz\mdw\slama\hw8\service\BankAccountService.class
+cz\mdw\slama\hw8\service\BankTransferService.class
+cz\mdw\slama\hw8\service\client\BankAccountServiceClient.class
+cz\mdw\slama\hw8\client\BankAccountServiceService.class
+cz\mdw\slama\hw8\client\BankAccountServicePortBindingStub.class
+cz\mdw\slama\hw8\db\BankAccountDb.class
+cz\mdw\slama\hw8\client\BankAccountServiceServiceLocator.class
+cz\mdw\slama\hw8\model\BankAccount.class
+cz\mdw\slama\hw8\client\BankAccountService.class
+cz\mdw\slama\hw8\exception\BankAccountNotFoundException.class
